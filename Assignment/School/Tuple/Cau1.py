@@ -1,1 +1,11 @@
-print('Đây là')0
+tup1 = (1,2,3,4,5)
+tup2 = (1.1,1.2,1.3)
+tup3 = ([1,2,3],[4,5,6])
+tup4 = ((1,2,3),(4,5,6))
+tup5 = ('Hello',)
+
+print(f'Tupple 1 la: {tup1}',f'| Có kiểu dữ liệu là {type(tup1)}')
+print(f'Tupple 2 la: {tup2}',f'| Có kiểu dữ liệu là {type(tup2)}')
+print(f'Tupple 3 la: {tup3}',f'| Có kiểu dữ liệu là {type(tup3)}')
+print(f'Tupple 4 la: {tup4}',f'| Có kiểu dữ liệu là {type(tup4)}')
+print(f'Tupple 5 la: {tup5}',f'| Có kiểu dữ liệu là {type(tup5)}')
